@@ -1,0 +1,18 @@
+#!/usr/bin/env xdg-open
+# Installation: /bin/cp -p kodegeek_rdp.desktop ~/.local/share/applications/kodegeek_rdp.desktop && /bin/chmod +x ~/.local/share/applications/kodegeek_rdp.desktop
+# http://freedesktop.org/wiki/Specifications/desktop-entry-spec
+# If you make changes don't forget to validate first: desktop-file-validate ~/.local/share/applications/kodegeek_rdp.desktop
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=/home/josevnz/bin/kodegeek_rdp.sh
+Name=KodeGeek RPD wrapper
+Comment=Wrapper for KodeGeek RPD script - Jose Vicente Nunez
+# https://specifications.freedesktop.org/menu-spec/menu-spec-1.0.html
+Categories=ConsoleOnly;Utility;
+NoDisplay=false
+Path=/home/josevnz
+Keywords=rdp;remotedeskop
+# Replace with a png of your liking
+Icon=/home/josevnz/Pictures/kodegeek_rdp.png
